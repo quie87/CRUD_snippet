@@ -1,0 +1,12 @@
+<h1>
+  <span class="far fa-trash-alt"></span> Delete
+</h1>
+
+<form method="post" action="/snippets/delete">
+  <input type="hidden" name="id" value="{{locals.id}}" />
+  <div class="form-group">
+    <input type="text" class="form-control" name="description" placeholder="Update snippet here" value="{{locals.description}}" readonly="readonly" />
+  </div>
+  <button type="submit" class="btn btn-lg btn-primary" autofocus="autofocus">Delete</button>
+  <a href="/snippets" class="btn btn-lg btn-primary">Cancel</a>
+</form>

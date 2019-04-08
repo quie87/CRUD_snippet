@@ -1,0 +1,12 @@
+<h1>
+  <span class="far fa-edit"></span> Edit
+</h1>
+
+<form method="post" action="/snippets/edit">
+  <input type="hidden" name="id" value="{{locals.id}}" />
+  <div class="form-group">
+    <input type="text" class="form-control" name="description" placeholder="Update snippet here" value="{{locals.description}}" required="required" autofocus="autofocus" />
+  </div>
+  <button type="submit" class="btn btn-lg btn-primary" autofocus="autofocus">Update</button>
+  <a href="/snippets" class="btn btn-lg btn-primary">Cancel</a>
+</form>
