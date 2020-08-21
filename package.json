@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/1dv023/ka222vq-examination-2#readme",
   "dependencies": {
-    "bcrypt": "^3.0.4",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.2",
     "express-handlebars": "^3.1.0",
